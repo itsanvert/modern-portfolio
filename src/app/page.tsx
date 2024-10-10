@@ -4,6 +4,8 @@ import { FaHome } from "react-icons/fa";
 import React from "react";
 import Grid from "@/components/Grid";
 import { navItems } from "../../data";
+import RecentProject from "@/components/RecentProject";
+
 
 const page = () => {
   return (
@@ -12,6 +14,7 @@ const page = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
+        <RecentProject />
       </div>
     </main>
   );
