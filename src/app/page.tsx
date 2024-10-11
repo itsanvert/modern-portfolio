@@ -5,7 +5,8 @@ import React from "react";
 import Grid from "@/components/Grid";
 import { navItems } from "../../data";
 import RecentProject from "@/components/RecentProject";
-
+import Client from "@/components/Client";
+import Experience from "@/components/Experience";
 
 const page = () => {
   return (
@@ -15,6 +16,8 @@ const page = () => {
         <Hero />
         <Grid />
         <RecentProject />
+        <Client />
+        <Experience />
       </div>
     </main>
   );
