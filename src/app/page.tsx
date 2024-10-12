@@ -8,6 +8,7 @@ import RecentProject from "@/components/RecentProject";
 import Client from "@/components/Client";
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
+import Footer from "@/components/Footer";
 
 const page = () => {
   return (
@@ -19,7 +20,8 @@ const page = () => {
         <RecentProject />
         <Client />
         <Experience />
-        <Approach / >
+        <Approach />
+        <Footer />
       </div>
     </main>
   );
